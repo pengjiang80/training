@@ -12,7 +12,11 @@
       label: "Nginx Scale Number:"
       default: "1"
       required: true
-      type: "int"
+      type: "enum"
+      options:
+        - 1
+        - 2
+        - 3
     - variable: "ext_port"
       description: |
         External Port
